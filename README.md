@@ -1,3 +1,20 @@
+#Anti-UX Website
+
+A homework assignment for Usability Engineering at UVA
+
+##Brienne Tyler
+
+##Sources
+
+https://devcenter.heroku.com/articles/getting-started-with-python#provision-add-ons
+
+
+
+
+
+
+
+
 # Python: Getting Started
 
 A barebones Django app, which can easily be deployed to Heroku.
