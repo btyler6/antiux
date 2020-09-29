@@ -33,24 +33,27 @@
         </style>
     </head>
     <body>
-        <h1 class="box-1">
-            WE NEED YOU TO DONATE!!!
-        </h1>
+        <a href={% url 'index' %}>
+            <h1 class="box-1">
+                WE NEED YOU TO DONATE!!!
+            </h1>
+        </a>
         <a href={% url 'donate' %}>
-            <img src='bdm.png' alt="cannot find image"
+            {% load static %}
+            <img src="{% static 'hello/img/bdm.png' %}" alt="baby dragon"
             style="width: 300px; height:auto;">
         </a>
-        <h2 class="box-2">
-            Baby dragons face many minacious threats as young dragons.
-            This is why we need your DONATIONS.
-            Mother dragons must safeguard their nesting areas to protect their young from ichneumon.
-            ICHNEUMON are known killers of dragons and are a threat to the safety of dragons.
-            We need your DONATIONS to help protect baby dragons from dangerous threats like ichneumon.
-            Modern issues like copious amounts of POLLUTION and dissapearance of HABITATS also threaten dragons.
-            It is just as important that newborn dragons acquire assitance as it is that other newborn animals acquire assistance.
-            Click on the baby DRAGON above to DONATE today.
-            Please DONATE NOW to aid CONSERVATION efforts aimed at defending infant dragons from impending DANGERS and THREATS to the lives of newborn and baby dragons!
-        </h2>
+            <h2 class="box-2">
+                Baby dragons face many minacious threats as young dragons.
+                This is why we need your DONATIONS.
+                Mother dragons must safeguard their nesting areas to protect their young from ichneumon.
+                ICHNEUMON are known killers of dragons and are a threat to the safety of dragons.
+                We need your DONATIONS to help protect baby dragons from dangerous threats like ichneumon.
+                Modern issues like copious amounts of POLLUTION and dissapearance of HABITATS also threaten dragons.
+                It is just as important that newborn dragons acquire assitance as it is that other newborn animals acquire assistance.
+                Click on the baby DRAGON above to DONATE today.
+                Please DONATE NOW to aid CONSERVATION efforts aimed at defending infant dragons from impending DANGERS and THREATS to the lives of newborn and baby dragons!
+            </h2>
         
     </body>
 </html>
