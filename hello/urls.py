@@ -4,7 +4,6 @@ from django.conf import settings
 
 from . import views
 
-""" app_name = 'babydragon'
 urlpatterns = [
-    path('', views.IndexView.as_view(), name='index'),
-] """
+    path('donate', views.donate, name='donate'),
+]

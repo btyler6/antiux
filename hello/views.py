@@ -4,6 +4,9 @@ import requests
 from .models import Greeting
 from django.views import generic
 from django.views.generic import TemplateView
+from django.urls import path
+
+from . import views
 
 # Create your views here.
 
@@ -12,10 +15,10 @@ from django.views.generic import TemplateView
 
 def index(request):
     # return HttpResponse('Hello from Python!')
-    return render(request, "/hello/index.html")
+    return render(request, "index.html")
 
 def donate(request):
-    return render(request, "/hello/donate.html")
+    return render(request, "donate.html")
 
 """ def index(request):
     r = requests.get('http://httpbin.org/status/418')
