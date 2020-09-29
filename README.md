@@ -8,7 +8,7 @@ A homework assignment for Usability Engineering at UVA
 
 https://devcenter.heroku.com/articles/getting-started-with-python#provision-add-ons
 
-
+https://tutorial.djangogirls.org/en/django_urls/ 
 
 
 

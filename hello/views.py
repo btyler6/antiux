@@ -14,11 +14,10 @@ from . import views
     template_name = 'babydragon/index.html' """
 
 def index(request):
-    # return HttpResponse('Hello from Python!')
-    return render(request, "index.html")
+    return render(request, "hello/index.html")
 
 def donate(request):
-    return render(request, "donate.html")
+    return render(request, "hello/donate.html")
 
 """ def index(request):
     r = requests.get('http://httpbin.org/status/418')

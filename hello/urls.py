@@ -5,5 +5,7 @@ from django.conf import settings
 from . import views
 
 urlpatterns = [
-    path('donate', views.donate, name='donate'),
+    path("", views.index, name="index"),
+    path("donate/", views.donate, name='donate'),
+    path("db/", views.db, name="db"),
 ]
