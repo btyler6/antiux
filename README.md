@@ -10,7 +10,7 @@ https://devcenter.heroku.com/articles/getting-started-with-python#provision-add-
 
 https://tutorial.djangogirls.org/en/django_urls/ 
 
-
+http://www.advancesharp.com/questions/18648/how-to-divide-entire-page-area-into-four-equat-parts
 
 
 

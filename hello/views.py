@@ -19,6 +19,9 @@ def index(request):
 def donate(request):
     return render(request, "hello/donate.html")
 
+def donatehere(request):
+    return render(request, "hello/donatehere.html")
+
 """ def index(request):
     r = requests.get('http://httpbin.org/status/418')
     print(r.text)

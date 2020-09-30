@@ -3,10 +3,50 @@
     <head>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-        Donate!
+        <style type='text/css'>
+            h1{
+                text-align: center;
+                font-size: 15px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 30em;
+                line-height: .8em;
+                color: black;
+                padding: .3em;
+                }
+            .box-1{
+                background-color:white;
+                border: 5px purple solid;
+            }
+        </style>
+        <title>
+            Donate!
+        </title>
     </head>
 
     <body>
-        donate html
+        <h1 class=box-1>
+            Thank you for your interest in donating to help our baby dragon conservation effort.
+        </h1>
+        <a href="https://dragonology.fandom.com/wiki/Dragon_habitats">
+            <h1 class=box-1>
+                Click here to learn more about dragon habitats, like forests and mountains.
+            </h1>
+        </a>
+        <a href="https://en.wikipedia.org/wiki/Ichneumon_(medieval_zoology)">
+            <h1 class=box-1>
+                Click here to learn more about ichneumon.
+            </h1>
+        </a>
+        <a href={% url 'donatehere' %}>
+            <h1 class=box-1>
+                Click here to donate to help save baby dragons.
+            </h1>
+        </a>
+        <a href={% url 'index' %}>
+            <h1 class=box-1>
+                Click here to go back to the home page.
+            </h1>
+        </a>
     </body>
 </html>

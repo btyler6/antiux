@@ -8,4 +8,5 @@ urlpatterns = [
     path("", views.index, name="index"),
     path("donate/", views.donate, name='donate'),
     path("db/", views.db, name="db"),
+    path("donatehere/", views.donatehere, name='donatehere'),
 ]
