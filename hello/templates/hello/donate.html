@@ -11,23 +11,28 @@
                 margin-right: auto;
                 width: 30em;
                 line-height: .8em;
-                color: black;
-                padding: .3em;
+                color: green;
+                padding: .1em;
                 }
             .box-1{
-                background-color:white;
+                background-color:red;
                 border: 5px purple solid;
+                padding-block-end: 0em;
+                padding-block-start: 0em;
+                margin: 0em;
             }
         </style>
         <title>
-            Donate!
+            Information
         </title>
     </head>
 
     <body>
-        <h1 class=box-1>
-            Thank you for your interest in donating to help our baby dragon conservation effort.
-        </h1>
+        <a href={% url 'index' %}>
+            <h1 class=box-1>
+                Thank you for your interest in DONATING to help our baby dragon conservation effort.
+            </h1>
+        </a>
         <a href="https://dragonology.fandom.com/wiki/Dragon_habitats">
             <h1 class=box-1>
                 Click here to learn more about dragon habitats, like forests and mountains.
@@ -38,9 +43,9 @@
                 Click here to learn more about ichneumon.
             </h1>
         </a>
-        <a href={% url 'donatehere' %}>
+        <a href="{% url 'donatehere' %}" class="top-menu">
             <h1 class=box-1>
-                Click here to donate to help save baby dragons.
+                Click here to make a contribution towards baby dragons.
             </h1>
         </a>
         <a href={% url 'index' %}>
