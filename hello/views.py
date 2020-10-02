@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 import requests
-from .models import Greeting
+from .models import Donation
 from django.views import generic
 from django.views.generic import TemplateView
 from django.urls import path
