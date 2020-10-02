@@ -18,7 +18,7 @@
                 DONATE HERE
             </h2>
             <form method="POST" class="donatehere">{% csrf_token %}
-                <button type="submit" class="save btn btn-default">DONE</button>
+                        <button type="submit" class="save btn btn-default"><a href={% url 'thanks' %}>OK</a></button>
                 {{ form.as_p }}
             </form>
         {% endblock %}

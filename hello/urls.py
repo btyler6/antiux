@@ -9,5 +9,5 @@ urlpatterns = [
     path("donate/", views.donate, name='donate'),
     path("db/", views.db, name="db"),
     path("donatehere/", views.donatehere, name='donatehere'),                
-
+    path("thanks/", views.thanks, name="thanks"),
 ]

@@ -12,7 +12,7 @@ https://tutorial.djangogirls.org/en/django_urls/
 
 http://www.advancesharp.com/questions/18648/how-to-divide-entire-page-area-into-four-equat-parts
 
-
+https://www.w3schools.com/html/html_links_colors.asp
 
 
 # Python: Getting Started
