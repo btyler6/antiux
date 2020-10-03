@@ -5,21 +5,27 @@
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
         <style type='text/css'>
             h1{
+                font-family: Bradley Hand;
                 text-align: center;
-                font-size: 15px;
+                font-size: 12px;
                 margin-left: auto;
                 margin-right: auto;
-                width: 30em;
+                width: 10em;
                 line-height: .8em;
                 color: green;
                 padding: .1em;
                 }
             .box-1{
                 background-color:red;
-                border: 5px purple solid;
+                border: 3px purple solid;
                 padding-block-end: 0em;
                 padding-block-start: 0em;
-                margin: 0em;
+                margin:0em;
+                margin-left: 20em;
+            }
+            .box-2{
+                background-color: white;
+                border: 20px;
             }
             a:link {
                 color: green; 
@@ -51,30 +57,27 @@
     </head>
 
     <body>
+        <h2 class=box-2>
+
+        </h2>
         <a href={% url 'index' %}>
             <h1 class=box-1>
                 Thank you for your interest in DONATING to help our baby dragon conservation effort.
             </h1>
         </a>
-        <a href="https://dragonology.fandom.com/wiki/Dragon_habitats">
             <h1 class=box-1>
-                Click here to learn more about dragon habitats, like forests and mountains.
+                Click <a href="https://dragonology.fandom.com/wiki/Dragon_habitats">here</a> to learn more about dragon habitats, like forests and mountains.
             </h1>
-        </a>
-        <a href="https://en.wikipedia.org/wiki/Ichneumon_(medieval_zoology)">
+            <a href="https://en.wikipedia.org/wiki/Ichneumon_(medieval_zoology)">
             <h1 class=box-1>
                 Click here to learn more about ichneumon.
             </h1>
-        </a>
-        <a href="{% url 'donatehere' %}" class="top-menu">
+        </a> 
             <h1 class=box-1>
-                Click here to make a contribution towards baby dragons.
+                Click <a href="{% url 'donatehere' %}" class="top-menu">here</a> to make a contribution towards baby dragons.
             </h1>
-        </a>
-        <a href={% url 'index' %}>
             <h1 class=box-1>
-                Click here to go back to the home page.
+                Click <a href={% url 'index' %}>here</a> to go back to the home page.
             </h1>
-        </a>
     </body>
 </html>
