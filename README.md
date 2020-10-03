@@ -14,6 +14,12 @@ http://www.advancesharp.com/questions/18648/how-to-divide-entire-page-area-into-
 
 https://www.w3schools.com/html/html_links_colors.asp
 
+https://stackoverflow.com/questions/4101258/how-do-i-add-a-placeholder-on-a-charfield-in-django
+
+https://stackoverflow.com/questions/7366363/adding-custom-django-model-validation
+
+https://docs.djangoproject.com/en/3.1/ref/validators/
+
 
 # Python: Getting Started
 
